@@ -51,6 +51,7 @@
         height: 100%;
         top:0;
         background: white;
+        border: 1px solid $main_color;
         z-index: 2;
         opacity: 0;
         transition: all 0.5s ease-in;
@@ -59,11 +60,11 @@
         }
         span {
             font-size:23px;
-            bottom:80px;
+            bottom: 100px;
             left:40px;
             position:absolute;
             text-transform:uppercase;
-            color:#000000;
+            color:$main_color;
             letter-spacing:1px;
             font-weight:900;
             line-height:50px;
@@ -76,7 +77,26 @@
             color:#686868;
             letter-spacing:1px;
             font-weight:400;
-            line-height:50px;
+            line-height:18px;
         }
     }
+    &__icons {
+        display: flex;        
+        justify-content: space-around;
+        top:50px;
+        left: 50%;
+        position:absolute;
+        a {
+            display: block;
+            width: 35px;
+            margin: 0 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid $main_color;
+            img {
+                width: 100%;
+            }
+        }        
+    }   
 }
