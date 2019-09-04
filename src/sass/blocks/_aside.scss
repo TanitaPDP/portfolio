@@ -1,0 +1,15 @@
+.aside {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 638px;
+    height: 1079px;
+    background: url(../../img/base-bg.png) center (center/cover) no-repeat;
+    &__bg {
+        display: block;
+        width: 638px;
+        height: 1079px;
+        background: url(../../img/card-bg.png) center (center/cover) no-repeat;
+    }
+}

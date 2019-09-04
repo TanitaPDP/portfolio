@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Raleway';
+	font-display: swap; /* Помогает показывать текст на сайте до загрузки нужного шрифта */
+	src: url('../fonts/Raleway-Regular.eot');
+	src: url('../fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Raleway-Regular.woff') format('woff'),
+	url('../fonts/Raleway-Regular.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	}
+@font-face {
+	font-family: 'Raleway';
+	font-display: swap; /* Помогает показывать текст на сайте до загрузки нужного шрифта */
+	src: url('../fonts/Raleway-SemiBold.eot');
+	src: url('../fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Raleway-SemiBold.woff') format('woff'),
+	url('../fonts/Raleway-SemiBold.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	}
+@font-face {
+	font-family: 'Raleway';
+	font-display: swap; /* Помогает показывать текст на сайте до загрузки нужного шрифта */
+	src: url('../fonts/Raleway-Black.eot');
+	src: url('../fonts/Raleway-Black.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Raleway-Black.woff') format('woff'),
+	url('../fonts/Raleway-Black.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}

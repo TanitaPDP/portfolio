@@ -1,0 +1,19 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'base/media';
+@import 'base/variables';
+
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+
+@import 'blocks/header';
+@import 'blocks/aside';
+@import 'blocks/menu';
+@import 'blocks/portfolio';
+@import 'blocks/footer';
