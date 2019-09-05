@@ -17,6 +17,11 @@
         padding-right: 10px;
         padding-bottom: 22px;
         border-bottom: 1px solid #dedede;
+        transition: all 1s ease;
+        &:hover {
+            transform: scale(1.1);
+            border-bottom-color: $main_color;
+        }
         img {
             width: 100%;
         }
@@ -31,4 +36,15 @@
         letter-spacing: 0.96px;
     }
 
+}
+@media (max-width: 991px){
+    .footer {
+        height: auto;
+        &__social {
+            padding: 30px 0 0 0;            
+        }
+        &__copyright {
+            padding: 30px 0 20px 0;
+        }
+    }
 }

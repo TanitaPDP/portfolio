@@ -100,3 +100,64 @@
         }        
     }   
 }
+@media (max-width: 1200px) {
+   .portfolio {
+       &__header h1 {
+           font-size: 36px;
+           line-height: 46px;
+       }
+       &__subheader {
+           padding-top: 20px;
+       }
+   }
+}
+@media (max-width: 991px) {
+    .portfolio {
+        padding-bottom: 15px;
+        &__header {
+            max-width: 60%;           
+        }
+        &__subheader {
+            max-width: 60%;           
+        }
+    }    
+}
+@media (max-width: 767px) {
+    .portfolio {
+        &__header {
+            max-width: 90%;
+            margin: 0 auto;
+            text-align: center;
+            h1 {
+                font-size: 24px;
+                line-height: 32px;
+            }
+        }        
+        &__subheader {
+            max-width: 90%;
+            margin: 0 auto;
+        }
+        &__gallery {
+            padding: 48px 0 0 0; 
+            justify-content: center;           
+        }
+        &__column-left {
+            margin-right: 0;
+        }
+    }
+    
+}
+@media (max-width: 575px) {
+    .portfolio {
+        &__item {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        &__descr {
+            width: 100%;
+        }
+    }
+    
+}
